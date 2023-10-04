@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!----------------------------------ICONO PESTAÑA--------------------------------------------------------->
+    <link rel="shortcut icon" href="tools/img/logo.png" type="image/x-icon">
+
+    
+    <!----------------------------------REMIXICON LIBRARY------------------------------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    
+    
+    <!----------------------------------CSS------------------------------------------------------------->
+    <link rel="stylesheet" href="tools/css/style.css">
+
+
+    <!----------------------------------write here------------------------------------------------------->
+    <title>ANTOJITOS</title>
+
+</head>
+
+
+<body>
+    <!----------------------------------HEADER------------------------------------------------------->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="tools/img/logo.png" alt="logo">ANTOJITOS
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+
+                    <div class="nav__item">
+                        <a href="#home" class="nav__link active-link">Menu</a>
+                    </div>
+
+                    <div class="nav__item">
+                        <a href="#program" class="nav__link ">Pastelitos</a>
+                    </div>
+                    
+                    <div class="nav__link">
+                        <a href="#footer" class="button nav__button">Compra ahora</a>
+                    </div>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+
+            </div>
+
+            <!--toggle button-->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!--------------------------------------MAIN---------------------------------------------------------->
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home__data">
+                    <h2 class="home__subtitle">HORNEAREMOS</h2>
+                    <h1 class="home__title">TU PASTEL</h1>
+                    <p class="home__description">
+                        En nuestra pastelería, creemos que la vida debe estar llena de momentos dulces. Desde nuestros exquisitos pasteles hasta nuestros delicados postres, cada bocado es una experiencia única de sabor y placer.
+                    </p>
+                    <a class="button button__flex">Haz tu pedido <i class="ri-arrow-right-line"></i></a>
+                </div>
+
+                <div class="home__images">
+                    <img src="tools/img/home.png" alt="home image" class="home__img">
+                    <div class="home__triangle home__triangle-3"></div>
+                    <div class="home__triangle home__triangle-2"></div>
+                    <div class="home__triangle home__triangle-1"></div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+         <!----------------------------------LOGOS------------------------------------------->
+        <section class="logos section">
+            <div class="logos__container container grid">
+                <img src="tools/img/marca1.png" alt="logo image" class="logos__img">
+                <img src="tools/img/marca3.png" alt="logo image" class="logos__img">
+                <img src="tools/img/marca4.png" alt="logo image" class="logos__img">
+                <img src="tools/img/marca2.png" alt="logo image" class="logos__img">
+            </div>
+        </section>
+
+         <!----------------------------------PROGRAMA---------------------------------------->
+        <section class="program section" id="program">
+            <div class="container">
+                <div class="section__data">
+                    <h2 class="section__subtitle">Nuestros Pasteles</h2>
+                    <div class="section__titles">
+                        <h1 class="section__title-border">Para ti!</h1>
+                        <h1 class="section__title">ANTOJITOS</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="program__container grid">
+
+                <article class="program__card">
+                    <div class="program__shape">
+                        <img src="images/postre7.jpg" alt="program image" class="program__img">
+                    </div>
+                    <h3 class="program__title">Pastel de frutos rojos</h3>
+                    <p class="program_description">Desde $150</p>
+
+                    
+                </article>
+
+                <article class="program__card">
+                    <div class="program__shape">
+                        <img src="images/postre10.jpg" alt="program image" class="program__img">
+                    </div>
+                    <h3 class="program__title">Pastelitos</h3>
+                    <p class="program_description">Desde $200</p>
+
+                    
+                </article>
+
+                <article class="program__card">
+                    <div class="program__shape">
+                        <img src="images/pastel10.jpg" alt="program image" class="program__img">
+                    </div>
+                    <h3 class="program__title">Japanese Cake</h3>
+                    <p class="program_description">Desde $300</p>
+
+                    
+                </article>
+
+                <article class="program__card">
+                    <div class="program__shape">
+                        <img src="tools/img/program1.png" alt="program image" class="program__img">
+                    </div>
+                    <h3 class="program__title">Torta de boda</h3>
+                    <p class="program_description">Desde $600</p>
+
+                    
+                </article>
+
+            </div>
+            
+
+        </section>
+
+
+    <!----------------------------------FOOTER------------------------------------------------------->
+    <footer class="footer section" id="footer">
+        <div class="footer__container container grid">
+            <div>
+                <a href="#" class="footer__logo">
+                    <img src="tools/img/logo.png" alt="">ANTOJITOS
+                </a>
+
+                <p class="footer__description">
+                    Contactanos al <br>999 999 999
+                </p>
+
+                <form action="" class="footer__form" id="contact-form">
+                    <input type="email" name="user_email" placeholder="Tu Email" class="footer__input" id="contact-user">
+                    <button type="submit" class="button">
+                        Contactanos!
+                    </button>
+                </form>
+
+
+                <p class="footer__message" id="contact-message"></p>
+
+            </div>
+
+            
+        </div>
+
+        <div class="container">
+            <div class="footer__group">
+                <ul class="footer__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="footer__social-link"><i class="ri-facebook-circle-fill"></i></a>
+                    <a href="https://twitter.com/" target="_blank" class="footer__social-link"><i class="ri-twitter-fill"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"  class="footer__social-link"><i class="ri-instagram-fill"></i></a>
+                </ul>
+
+                <span class="footer__copy">
+                    &#169; Copyright ANTOJITOS. Te engordamos más :D
+                </span>
+
+            </div>
+        </div>
+
+    </footer>
+    
+    <!----------------------------------SCROLL UP------------------------------------------------------>
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!----------------------------------SCROLLREVEAL--------------------------------------------------->
+    <script src="tools/js/scrollreveal.min.js"></script>
+
+    <!----------------------------------MAIN-------------------------------------------------------->
+     <script src="tools/js/main.js"></script>
+    
+
+     
+</body>
+</html>
